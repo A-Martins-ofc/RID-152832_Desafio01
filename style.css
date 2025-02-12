@@ -1,0 +1,106 @@
+*{
+margin: 0px;
+font-family:"inter";
+font-weight: 250;
+}
+
+#TituloMenuSup{
+    margin-top: 0px;
+    margin-left: 40px;
+    padding-top:100px;
+
+
+}
+
+#TextoMenuSup{
+    margin-left: 40px;
+    margin-top:10px ;
+    padding-bottom: 90px;
+}
+
+#MenuSup{
+    background:#303030;
+    color: #FFFFFF;
+}
+
+#MenuInfo{
+   margin: 0px;
+   display: flex;
+   justify-content: space-around;
+   text-align: left;
+   padding:50px ;
+   background-color: #F9F9F9;
+   
+}
+.numero{
+    font-size: 35px;
+    font-weight: bold;
+    display: block;
+}
+#historia{
+    display: flex;
+    
+}
+
+#TituloHist{
+    order: 2;
+    margin-left: 50px;
+    margin-top: 230px;
+
+
+}
+
+#TextoHistoria{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+
+#ImgIlustrativa{
+    order: 1;
+    margin: 70px 0px 50px 200px;
+}
+
+#Formulario{
+    text-align: center;
+    background: #303030;
+    padding-top: 30px;
+}
+
+#TituloFormulario{
+font-size: 25px;
+margin: 25px;
+color: #FFFFFF;
+}
+
+input {
+width: 300px;
+height: 40px;
+margin:10px ;
+border: 0px;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    background: #C07212;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Raleway";
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #db8216;
+    transform: translateY(-7px);
+    box-shadow: 0px 5px 10px 5px #f58a075e;
+    transition-duration: 0.5s;
+}
